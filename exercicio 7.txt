@@ -1,0 +1,23 @@
+algoritmo "opa"
+
+var
+
+
+idade, meses, dias : real
+
+
+inicio
+
+Escreval (" Sua idade: ")
+leia (idade)
+escreval (" Sua idade em meses: ")
+leia (meses)
+escreval (" sua idade em dias: ")
+leia (dias)
+
+dias:=  (dias+(idade*365)+(meses*30))
+
+escreval (" Sua idade em dias é:" , dias)
+
+
+fimalgoritmo

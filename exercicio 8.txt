@@ -1,0 +1,21 @@
+
+totaleleitores, votosnulos, votosbrancos, votosvalidos, brancos, nulos, validos: real
+
+escreval ("Total de eleitores da cidade: "
+leia (totaleleitor)
+escreval ("Total de votos brancos: ")
+leia (votosbrancos)
+escreval ("Total de votos nulos: ")
+leia (votosnulos)
+escreval ("Total de votos validos: ")
+leia (votosvalidos)
+
+brancos:= (100*votosbrancos)
+nulos:= (100*votosnulos)
+validos:= (100*votosvalidos)
+
+escreval (" Porcentagem de votos brancos é: ",brancos)
+
+escreval (" Porcentagem de votos nulos é: ", nulos)
+
+escreval (" Porcentagem de votos validos é: ", validos)

@@ -1,0 +1,19 @@
+algoritmo "exercicio 9"
+
+var
+
+salarioAtual: real
+salarioReajustado: real
+percentual: real
+
+inicio
+
+escreval (" Qual é o seu sálario atual?")
+leia (salarioAtual)
+
+salarioReajustado:= salarioAtual+salarioAtual*0.30
+
+escreval ("Seu salário novo é: ", salarioReajustado)
+
+
+fimalgoritmo

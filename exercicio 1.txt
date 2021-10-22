@@ -1,0 +1,21 @@
+algoritmo "exercicio 1"
+
+var
+
+a, b, c: inteiro
+
+inicio
+
+a:= 10
+b:= 20
+
+c:= a
+a:= b
+b:= c
+
+escreval (a)
+escreval (b)
+escreval (c)
+
+
+fimalgoritmo

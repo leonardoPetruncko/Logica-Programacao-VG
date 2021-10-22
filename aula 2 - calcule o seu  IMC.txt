@@ -1,0 +1,21 @@
+algoritmo "calcule o IMC"
+
+
+var
+
+peso, altura: real
+imc: real
+
+inicio
+
+escreval (" ____________ Calcule o seu IMC ____________ ")
+escreval ("")
+escreval (" Digite o seu peso")
+leia ( peso)
+escreval ("")
+escreval (" Digite a sua altura")
+leia ( altura)
+escreval ("")
+imc :=  peso / (altura ^ 2)
+escreval ("")
+escreval (" Seu imc é " , imc :2:2)

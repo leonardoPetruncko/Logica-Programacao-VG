@@ -1,0 +1,19 @@
+algoritmo "Aula 2 - Operadores Aritméticos"
+
+var
+
+a, b: inteiro
+c: real
+
+inicio
+
+
+escreval (" ___________________DESCONTO____________________")
+escreval ("")
+escreval (" Digite o valor da compra")
+leia (a)
+c:= a-(a*0.10)
+escreval (" valor com o desconto: ",c)
+
+ 
+fimalgoritmo
